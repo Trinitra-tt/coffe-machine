@@ -1,0 +1,61 @@
+.coffee-machine {
+  border: 2px solid black;
+  margin-top: 75px;
+}
+
+.coffee-list {
+  background-image: url("img/background.jpg"); 
+  background-size: cover;
+}
+
+.coffee-item {
+  background: rgba(0, 0, 0, 0.7);
+  margin: 15px 0;
+  border-radius: calc(75px / 2); 
+  cursor: pointer; /*курсор в виде пальчика*/
+}
+.coffee-item:hover { /*высветление кнопок при наведении курсором*/
+  background: rgba(50, 50, 50, 0.7);
+}
+.coffee-item img {
+  width: 75px; /*размер картинки ширина и высота*/
+  height: 75px;
+  background: white;
+  border-radius: 50%;  /*скругление углов*/
+}
+.coffee-item span {
+  color: white;
+  font-family: 'Segoe Script';
+  margin-left: 15px;
+}
+
+
+
+.display {
+  background: #E8A27D; /*цвет панели с прогрессбаром*/
+  border: 2px solid brown;
+  padding: 15px;
+}
+
+.coffee-cup img {  /*Размер изображения чашки под прогрессбаром*/
+  width: 100%;
+}
+
+.atm img { /*терминал для денег подогнали по ширине*/
+  width: 100%;
+}
+
+.change-box {
+  background: #E8A27D; /*цвет панели со сдачей*/
+  border: 2px solid brown;
+  height: 100px;
+}
+
+.coffee-oper {
+  background: #9C6D54; /*цвет заднего фона левой панели кофемашины*/
+}
+
+
+
+
+

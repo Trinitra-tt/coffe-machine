@@ -39,11 +39,11 @@
               <div class="display">
                 <p class="display-text"> Выберите кофе </p>
                 <div class="progress">
-                  <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%"></div> <!--анимированная полоса из https://bootstrap-4.ru/-->
+                  <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 0%"></div> <!--анимированная полоса из https://bootstrap-4.ru/-->
                 </div>
               </div>
               <div class="coffee-cup"> <!--чашка кофе под прогрессбаром-->
-                <img src="img/americano.png" alt="">
+                <img class="d-none" src="img/americano.png" alt=""> <!--d-none прячет чашку под прогрессбаром--> 
               </div>
             </div>
             <div class="col-6">              
